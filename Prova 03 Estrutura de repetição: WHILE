@@ -1,0 +1,32 @@
+print('''
+
+    +======Jogo da adivinhação========+
+    
+    Tente adivinhar o número escolhido 
+    pela máquina para ganhar o jogo.
+      
+    Você tem 3 tentativas para tentar
+    acertar o número.
+      
+    Boa sorte!!! 
+      
+    +=================================+
+''')
+
+tentativa = 0
+numero = 10
+numero_escolhido = 0
+
+while True:
+    if tentativa == 3:
+        print("Que pena, suas tentativas acabaram. Boa sorte na próxima vez!")
+        break
+    tentativa += 1
+    numero_escolhido = int(input(f"Digite aqui a sua {tentativa}º tentativa: "))
+    if numero_escolhido == numero:
+        if tentativa == 1:
+            print (f"Parabéns, você adivinhou o número escolhido ({numero}) em apenas {tentativa} tentativa!!")
+            break
+        else:
+            print(f"Parabéns, você adivinhou o número escolhido ({numero}) em apenas {tentativa} tentativas!!")
+            break
