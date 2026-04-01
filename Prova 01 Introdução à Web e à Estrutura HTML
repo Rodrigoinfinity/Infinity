@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra a Web</title>
+
+    <h1>Bem-Vindo ao Descubra a Web</h1>
+</head>
+<body>
+    <p>Este site tem como objetivo ajudar os iniciantes na área da programação web.</p>
+
+    <a href="https://infinityschool.com.br/"target="_blank">Site exemplo que utiliza html</a>
+    <br><br>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR77hV-hvX9X1xzIfSFTa2SXdBYAAVnyW4biQ&s" alt="">
+    
+ 
+</body>
+</html>
